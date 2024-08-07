@@ -51,6 +51,18 @@ section{
     transition: color 0.3s;
 }
 
+.navbar-brand img{
+    width: 25px;
+    height: 30px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    margin-top: 2px;
+    color: #000;
+    cursor: default;
+}
+
 .navbar-toggler {
     border: none !important;
     font-size: 1.25rem;

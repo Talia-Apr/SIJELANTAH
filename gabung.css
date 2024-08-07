@@ -38,12 +38,26 @@ header{
     margin-right: 5%;
 }
 
-
 .navbar-brand {
     margin-left: 5%;
     font-weight: 800;
+    color: #4BA87D;
     font-size: 25px;
+    transition: color 0.3s;
 }
+
+.navbar-brand img{
+    width: 25px;
+    height: 30px;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    margin-top: 2px;
+    color: #000;
+    cursor: default;
+}
+
 
 .text-center h3{
     font-family: 'Playfair Display', sans-serif;
